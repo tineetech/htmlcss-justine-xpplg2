@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+  <html lang="id">
+  <head>
+    <meta charset="UTF-8">
+    <title>Studi Kasus 3 - Slicing</title>
+    <style>
+      #header, #footer, #sidebar, #content {
+        padding: 20px;
+        margin: 10px;
+        background-color: #eee;
+      }
+      #wrapper { display: flex; flex-wrap: wrap; }
+      #sidebar { flex: 1; min-width: 200px; }
+      #content { flex: 3; min-width: 300px; }
+    </style>
+  </head>
+  <body>
+    <div id="header">Header</div>
+    <div id="wrapper">
+      <div id="sidebar">Sidebar</div>
+      <div id="content">Content area dengan artikel dan gambar.</div>
+    </div>
+    <div id="footer">Footer</div>
+  </body>
+  </html>
